@@ -53,14 +53,14 @@ function Test() {
             <div>
               <div className="location-box">
                 <div className="location">
-                  {weather.city.name},{weather.city.country}
+                  {weather.city.name},{weather.city.name}
                 </div>
               </div>
             </div>
           </Link>
         ) : (
-          ""
-        )}
+            ""
+          )}
       </main>
     </div>
   );
